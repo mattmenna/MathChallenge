@@ -30,12 +30,13 @@ public class Main {
         numInput = scrn.nextLine();
         System.out.println("You entered " + numInput);
 
-        for (int i=0; i<numInput.length();i++){
-            System.out.println("Number at location " + i + " is "+ numInput.charAt(i));
+        for (int i = 0; i < numInput.length(); i++) {
+            System.out.println("Number at location " + i + " is " + numInput.charAt(i));
             System.out.println("_____________");
         }
+        sumOfcubes op = new sumOfcubes();
 
-
+        op.checkSum(154, 1, 5, 4); // 153 is true 154 is false
 
 
     }
