@@ -20,10 +20,22 @@ public class Main {
      */
 
     public static void main(String[] args) {
-	// write your code here
+
+        //System.out.println(scrn.nextLine());
+        String numInput = "";
+
+        System.out.println("Math Challenge Deliverable part 1");
+        System.out.println("Enter the interger your would like to check");
         Scanner scrn = new Scanner(System.in);
-        System.out.println(scrn.nextLine());
-        
+        numInput = scrn.nextLine();
+        System.out.println("You entered " + numInput);
+
+        for (int i=0; i<numInput.length();i++){
+            System.out.println("Number at location " + i + " is "+ numInput.charAt(i));
+            System.out.println("_____________");
+        }
+
+
 
 
     }
