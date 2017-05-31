@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //System.out.println(scrn.nextLine());
+
         String numInput = "";
 
         System.out.println("Math Challenge Deliverable part 1");
@@ -39,22 +39,26 @@ public class Main {
             System.out.println("_____________");
         }
 
+
         sumOfcubes op = new sumOfcubes();
 
+        /*
         int firstDigit = Character.getNumericValue(numInput.charAt(0));
         int secondDigit = Character.getNumericValue(numInput.charAt(1));
         int thirdDigit = Character.getNumericValue(numInput.charAt(2));
+        */
 
-        System.out.println("What was your number again?");
+        /*System.out.println("What was your number again?");
         int sumOfdigits = scrn.nextInt();
 
-        System.out.println("First Digit is " + firstDigit);
+       System.out.println("First Digit is " + firstDigit);
+
         System.out.println("Second Digit is " + secondDigit);
         System.out.println("Third Digit is " + thirdDigit);
 
         System.out.println("Total is "+ sumOfdigits);
-
-        System.out.println("Test CheckSum with integer");
+        */
+        System.out.println("Testing CheckSum with integer");
         op.checkSum(sumOfdigits, firstDigit, secondDigit, thirdDigit); // 153 is true 154 is false
 
 
